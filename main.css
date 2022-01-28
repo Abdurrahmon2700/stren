@@ -1,0 +1,153 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.contact__title {
+  font-family: 'Dosis', sans-serif;
+}
+
+.contact {
+  padding: 110px 0px;
+}
+
+.contact__part {
+  text-align: center;
+}
+
+.contact__message {
+  margin: 0px 0px 5px;
+}
+
+.contact__title {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.contact__description {
+  font-size: 15px;
+  width: 520px;
+  text-align: center;
+  padding: auto;
+  margin: auto;
+  margin-bottom: 75px;
+}
+
+.contact__inputpart {
+  margin-bottom: 50px;
+}
+
+.input__block {
+  width: 710px;
+}
+
+.input__all {
+  width: 341px;
+  height: 50px;
+  margin: 7px 7px;
+  padding: 7px;
+  font-size: 16px;
+  box-shadow: 0 5px 28.5px 1.5px rgb(149 152 200 / 20%);
+  border: none;
+  opacity: 0.7
+}
+
+.input__message {
+  max-width: 695px;
+  min-width: 695px;
+  height: 126px;
+  margin: 7px 7px;
+  padding: 7px;
+  font-size: 16px;
+  box-shadow: 0 5px 28.5px 1.5px rgb(149 152 200 / 20%);
+  border: none;
+  opacity: 0.7;
+}
+
+.input__submit {
+    padding: 15px 30px 15px;
+    font-size: 17px;
+    margin-top: 10px;
+    box-shadow: 0 5px 28.5px 1.5px rgb(149 152 200 / 50%);
+    border-radius: 90px;
+    background-color: #ff4800;
+    color: #fff;
+    border: none;
+    margin-left: 265px;
+    transition: all 0.8s ease;
+  }
+
+.input__submit:hover {
+  background-color: #28a745;
+  transition: all 0.8s ease;
+  box-shadow: none;
+}
+
+.adress__title {
+  margin-bottom: 15px;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.adress__number {
+  color: #ff4800;
+  font-size: 40px;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.6s ease;
+}
+
+.adress__number:hover{
+  color: #28a745;
+}
+
+.adress__extantion {
+  color: #57647c;
+  margin-top: 8px;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.adress__email {
+  color: #4ac728;
+  font-size: 40px;
+  margin-bottom: 20px;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.6s ease;
+}
+
+.adress__email:hover{
+  color: #ff4800;
+}
+
+.adress__item {
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+.size__icon {
+  font-size: 24px;
+  text-align: center;
+  color: #aba5a5;
+}
+
+.adress__item:hover .adress__link {
+  background-color:#ff4800;
+}
+
+.adress__item:hover .size__icon {
+  color: #fff;
+}
+
+.adress__link {
+  padding-top: 5px;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  border: 1px solid #dadada;
+  border-radius: 50%;
+  color: #aba5a5;
+}
+
