@@ -57,7 +57,8 @@ body {
 .input__message {
   max-width: 695px;
   min-width: 695px;
-  min-height: 126px;
+  min-height: 40px;
+  height: 126px;
   margin: 7px 7px;
   padding: 14px;
   font-family: Dosis,sans-serif;
