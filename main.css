@@ -1,9 +1,5 @@
-body {
-  font-family: 'Open Sans', sans-serif;
-}
-
 .contact__title {
-  font-family: 'Dosis', sans-serif;
+  font-family: var(--font-family)
   font-size: 40px;
   margin-bottom: 10px;
 }
@@ -18,9 +14,9 @@ body {
 
 .contact__message {
   margin: 0px 0px 5px;
-  font-family: 'Dosis', sans-serif;
+  font-family: var(--font-family);
   font-size: 15px;
-  color: #ff4800;
+  color: var(--bg-color-4);
   font-weight: 600;
 }
 
@@ -49,7 +45,7 @@ body {
   box-shadow: 0 5px 28.5px 1.5px rgb(149 152 200 / 20%);
   border: none;
   opacity: 0.7;
-  font-family: Dosis,sans-serif;
+  font-family: var(--font-family);
   font-size: 16px;
   outline: none;
 }
@@ -61,7 +57,7 @@ body {
   height: 126px;
   margin: 7px 7px;
   padding: 14px;
-  font-family: Dosis,sans-serif;
+  font-family: var(--font-family);
   font-size: 16px;
   box-shadow: 0 5px 28.5px 1.5px rgb(149 152 200 / 20%);
   border: none;
@@ -75,12 +71,12 @@ body {
     margin-top: 10px;
     box-shadow: 0 5px 28.5px 1.5px rgb(149 152 200 / 50%);
     border-radius: 90px;
-    background-color: #ff4800;
-    color: #fff;
+    background-color: var(--bg-color-4);
+    color: var(--color-2);
     border: none;
     margin-left: 265px;
     transition: all 0.8s ease;
-    font-family: 'Dosis', sans-serif;
+    font-family: var(--font-family);
     font-size: 17px;
   }
 
@@ -94,15 +90,15 @@ body {
   margin-bottom: 15px;
   font-size: 23px;
   font-weight: 700;
-  font-family: 'Dosis', sans-serif;
+  font-family: var(--font-family);
 }
 
 .adress__number {
-  color: #ff4800;
+  color: var(--color-4);
   display: inline-block;
   text-decoration: none;
   transition: all 0.6s ease;
-  font-family: 'Dosis', sans-serif;
+  font-family: var(--font-family);
   font-size: 40px;
   font-weight: bold;
 }
@@ -112,12 +108,12 @@ body {
 }
 
 .adress__extantion {
-  color: #57647c;
+  color: var(--color-3);
   margin-top: 8px;
   margin-bottom: 0;
   font-size: 18px;
   font-weight: bold;
-  font-family: 'Dosis',sans-serif;
+  font-family: var(--font-family);
 }
 
 .adress__email {
@@ -127,12 +123,12 @@ body {
   display: inline-block;
   text-decoration: none;
   transition: all 0.6s ease;
-  font-family: Dosis,sans-serif;
+  font-family: var(--font-family);
   font-weight: bold;
 }
 
 .adress__email:hover{
-  color: #ff4800;
+  color: var(--color-4);
   transition: all 0.6s ease; 
 }
 
@@ -144,17 +140,17 @@ body {
 .size__icon {
   font-size: 18px;
   text-align: center;
-  color: #aba5a5;
+  color: var(--color-9);
   transition: all 0.6s ease; 
 }
 
 .adress__item:hover .adress__link {
-  background-color:#ff4800;
+  background-color: var(--bg-color-4);
   transition: all 0.6s ease; 
 }
 
 .adress__item:hover .size__icon {
-  color: #fff;
+  color: var(--color-2);
   transition: all 0.6s ease; 
 }
 
@@ -165,7 +161,7 @@ body {
   line-height: 35px;
   border: 1px solid #dadada;
   border-radius: 50%;
-  color: #aba5a5;
+  color: var(--color-9);
   transition: all 0.6s ease; 
 }
 
